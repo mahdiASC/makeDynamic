@@ -32,6 +32,7 @@ body{
 #banner header h2{
     color: #fff;
     font-weight: 700;
+    font-size: 2em;
 }
 
 #banner header p {
@@ -39,7 +40,7 @@ body{
     padding: 0;
     font-style: normal;
     margin: 0;
-    font-size: 100%;
+    font-size: 2em;
 }
 
 #allChars{
@@ -110,3 +111,129 @@ ul.links li {
     padding: 0 0 0 1em;
     margin: 0 0 0 1em;
 }
+
+@media (max-width: 1146px){
+    body{
+        background-color: pink;
+    }
+
+    #banner{
+            background: #babe50;
+            padding: 3em;
+            margin: 1em 0 0 0;
+    }
+
+    #allChars{
+        width:80%;
+        margin: 0 auto;
+    }
+
+    .charBox{
+        height:482px;
+    }
+
+    .charCard {
+        padding: 1em .5em 1em .5em;
+    }
+
+    .row{
+        margin: -50px 0 -1px 0; 
+    }
+ }
+
+ @media (max-width: 850px){
+     body{
+        background-color: yellow; 
+     }
+
+    .rowbox{
+        width:100%;
+        float:none;
+    }
+    .charImage>img {
+        width: 75%;
+    }
+
+    h3{
+        margin: 0;
+        font-size: 3em;
+    }
+
+    .charCard p{
+        font-size: 2em;
+    }
+
+    .charCard {
+        padding: 0 4em;
+    }
+
+    .charBox {
+        margin: 1.5em 0;
+        padding: 0;
+        background: #ffffff;
+        border-bottom: solid 1px #fd9ba3;
+        height: auto;
+    }
+
+    .row{
+        margin-bottom: 3em;
+    }
+
+    h1{
+        font-size:4em;
+        margin:0;
+    }
+
+    #banner header h2{
+        font-size:3em;
+    }
+    #banner header p{
+        font-size:2em;
+    }
+    #copyright{
+        font-size: 2em;
+        margin-top: -50px;
+    }
+    #copyright .links{
+        padding:0;
+    }
+ }
+
+ @media (max-width: 620px){
+    body{
+        background-color: greenyellow;
+    }
+
+
+    #banner header{
+        padding:0;   
+    }
+    h2{
+        margin:0;
+    }
+
+    .major h2{
+        font-size: 3em;
+    }
+
+    img{
+        display:none;
+    }
+     
+     #allChars > :nth-child(2){
+        margin-top: 1em;
+     }
+
+     .charCard{
+         padding: 0 10px;
+     }
+
+     .charCard p{
+        margin:0;
+        font-size: 1.25em;
+    }
+    ul.links li{
+        padding:0;
+        margin:0;
+    }
+ }
